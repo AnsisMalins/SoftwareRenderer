@@ -1,0 +1,12 @@
+﻿<Window x:Class="RasterizationTest.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:RasterizationTest"
+    Title="FillTriangle Test" SizeToContent="WidthAndHeight" ResizeMode="NoResize"
+    WindowStartupLocation="CenterScreen">
+    <Canvas x:Name="canvas" Width="667" Height="470" MouseUp="canvas_MouseUp">
+        <Canvas.Background>
+            <ImageBrush ImageSource="IC520311.png" Stretch="None"/>
+        </Canvas.Background>
+    </Canvas>
+</Window>

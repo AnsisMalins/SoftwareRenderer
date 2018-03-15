@@ -1,0 +1,21 @@
+# Operating System
+.DS_Store
+desktop.ini
+desktop.ini.meta
+Thumbs.db
+Thumbs.db.meta
+
+# Unity
+*.csproj
+!**/*/*.csproj
+*.meta
+!*.*.meta
+*.sln
+!**/*/*.sln
+Library/
+Temp/
+
+# Visual Studio
+.vs/
+bin/
+obj/
